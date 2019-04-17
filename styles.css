@@ -1,0 +1,80 @@
+body {
+    @media (max width: 1280px) @media (min-width: 375px) height: 4600px;
+    background: linear-gradient(#ebf0fa, #adc2eb);
+}
+
+h1 {
+    font-family: Bodoni;
+    color: #0B243B;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 375px;
+}
+
+h2 {
+    font-family: 'Garamond';
+    color: #424242;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    max-width: 45ch;
+}
+
+h3 {
+    font-family: 'Bodoni';
+    font-weight: bold;
+    font-size: 18px;
+    color: #0B243B;
+    position: relative;
+    left: 180px;
+    top: 45px;
+}
+
+figcaption {
+    font-family: 'Garamond';
+    color: #424242;
+    font-weight: normal;
+    font-size: 12px;
+    position: relative;
+    left: 180px;
+    bottom: 130px;
+    max-width: 30ch;
+}
+
+.a {
+    text-indent: 20px;
+}
+
+.laptop {
+    margin: auto;
+    max-width: 1280px;
+    min-width: 375px;
+}
+
+img {
+    width: 160px;
+    height: auto;
+    vertical-align: text-top;
+    position: relative;
+}
+
+.container {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 375px;
+    height: 4600px;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
